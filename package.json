@@ -1,6 +1,6 @@
 {
   "name": "react-leaflet-shapefile",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React component for leaflet-shapefile",
   "main": "dist/react-leaflet-shapefile.js",
   "scripts": {
@@ -36,7 +36,7 @@
     "jquery": "*",
     "leaflet": "^0.7.7",
     "react-leaflet": "^0.11.5",
-    "react": "^15.0.2"    
+    "react": "^15.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
@@ -59,4 +59,3 @@
     "webpack-dev-server": "^1.12.1"
   }
 }
-
