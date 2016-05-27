@@ -11,7 +11,6 @@ export default class ShapefileExample extends React.Component {
   constructor() {
     super();
     this.handleFile = this.handleFile.bind(this);
-    this.handleZipFile = this.handleFile.bind(this);
     this.readerLoad = this.readerLoad.bind(this);
 
 
