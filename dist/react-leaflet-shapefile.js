@@ -128,6 +128,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'componentDidUpdate',
 	    value: function componentDidUpdate(prevProps) {
+	      //todo
+
 	      this.setStyleIfChanged(prevProps, this.props);
 	    }
 	  }]);

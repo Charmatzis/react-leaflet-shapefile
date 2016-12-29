@@ -1,6 +1,8 @@
 'use strict';
 var cw = require('./catiline.js');
-var shp = require('./shp.js');
+//var shp = require('shp.js');
+//import * as cw from 'catiline';
+import * as shp from 'shpjs';
 
 
 /* global cw, shp */
@@ -17,7 +19,7 @@ L.Shapefile = L.GeoJSON.extend({
         this.worker = cw(new Function('data', 'cb', 'importScripts("' + this.options.importUrl + '");shp(data).then(cb);'));
       } 
       else {
-        this.worker = cw(new Function('data', 'importScripts("' + this.options.importUrl + '"); return shp.parseZip(data);'));
+         this.worker = cw(new Function('data', 'importScripts("' + this.options.importUrl + '");return shp.parseZip(data);'));
       }
       /*eslint-enable no-new-func*/
     }
