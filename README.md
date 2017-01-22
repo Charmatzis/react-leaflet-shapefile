@@ -2,6 +2,8 @@
 
 React component build on top of [React-Leaflet](https://github.com/PaulLeCam/react-leaflet) that integrate [leaflet.shapefile](https://github.com/calvinmetcalf/leaflet.shapefile) functionality.
 
+![example](images/example.gif)
+
 ## Install
 
 ```
