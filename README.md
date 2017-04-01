@@ -1,4 +1,4 @@
-# react-leaflet-shapefile
+# react-leaflet-shapefile [![npm version](https://img.shields.io/badge/npm-2.0.0-blue.svg)](https://www.npmjs.com/package/react-leaflet-shapefile)
 
 React component build on top of [React-Leaflet](https://github.com/PaulLeCam/react-leaflet) that integrate [leaflet.shapefile](https://github.com/calvinmetcalf/leaflet.shapefile) functionality.
 
